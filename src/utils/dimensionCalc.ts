@@ -25,10 +25,10 @@ export const calculateDimensions = ({
     dimensions = { height: maxHeight, width: maxWidth, device }
   }
 
-  console.log({
-    entry: { device, height, width },
-    dimensions,
-  })
+  // console.log({
+  //   entry: { device, height, width },
+  //   dimensions,
+  // })
 
   return dimensions
 }
